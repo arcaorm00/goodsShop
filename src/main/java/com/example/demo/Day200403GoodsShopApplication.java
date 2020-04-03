@@ -13,6 +13,7 @@ public class Day200403GoodsShopApplication {
 	public PasswordEncoder passwordEncoder() {
 		return PasswordEncoderFactories.createDelegatingPasswordEncoder();
 	}
+	
 	public static void main(String[] args) {
 		SpringApplication.run(Day200403GoodsShopApplication.class, args);
 	}
